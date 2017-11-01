@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    background: url("../images/keagan-henman-387584.jpg") no-repeat center/cover;
+}
+
+.keys {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.key {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(121, 204, 250, 0.5);
+    border: 2px solid rgba(121, 204, 250, 0.5);
+    transition: all .07s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.key h1 {
+    text-align: center;
+}
+
+.key p {
+    text-align: center;
+    color: orangered;
+    font-weight: 700;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: orangered;
+    box-shadow: 0 0 10px orangered;
+}
